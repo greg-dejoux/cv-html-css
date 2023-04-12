@@ -1,0 +1,46 @@
+
+*{
+    font-family: 'Source Code Pro', monospace;
+}
+body {
+    background-color: #FAF2EA;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    color: #323231;
+}
+p.resum{
+    font-style: italic;
+    text-align: center;
+
+}
+p1 {
+    text-align: center;
+}
+
+h2 {
+    text-decoration: underline;
+    color:#323231;
+}
+/*creation de mes flexbox*/
+.box{
+    display : flex;
+    justify-content: space-around;
+}
+.infos{
+    display: flex;
+    justify-content: center;
+}
+
+
+p {
+    color: black;
+}
+
+a {
+    text-decoration: underline;
+    text-decoration-color: gray;
+    color: inherit;
+}
